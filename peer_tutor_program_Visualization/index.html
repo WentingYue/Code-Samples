@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<!-- Metadata -->
+
+<head>
+  <meta charset='utf-8'>
+
+  <!-- Title -->
+  <title>G10: Peer Tutoring Program Visualization Project, DS 4200 S22</title>
+
+  <!-- CSS Styling -->
+  <link rel='stylesheet' href='style.css'>
+
+  <!-- Favicons -->
+  <link rel='apple-touch-icon' sizes='180x180' href='favicons/apple-touch-icon.png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='favicons/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='favicons/favicon-16x16.png'>
+  <link rel='manifest' href='favicons/site.webmanifest'>
+  <link rel='shortcut icon' href='favicons/favicon.ico'>
+  <meta name='msapplication-TileColor' content='#da532c'>
+  <meta name='msapplication-config' content='favicons/browserconfig.xml'>
+  <meta name='theme-color' content='#ffffff'>
+</head>
+
+<!-- Main page content -->
+
+<body>
+
+  <!-- Update this with your GitHub repo URL -->
+  <span id='forkongithub'><a href='https://github.com/NEU-DS-4200-S22-Students/project-g10-peertutorprogram'>Fork me on GitHub</a></span>
+
+  <!-- Writeup -->
+  <div class='content-column'>
+    <h1>Project Group G10: Peer Tutoring Program Visualization Project, DS 4200 S22</h1>
+
+    <p><strong>Wenting Yue</strong>, <strong>Xiaofei Xie</strong>, <strong>Yuxi Shen</strong></p>
+
+    <p>Service-Learning Course Project as part of
+      <a href='https://neu-ds-4200-s22.github.io/'>DS 4200 S22 Information Presentation & Visualization</a>,
+      taught by <a href='https://cody.khoury.northeastern.edu/'>Prof. Cody Dunne</a>,
+      <a href='https://visualization.khoury.northeastern.edu/'>Data Visualization @ Khoury</a>,
+      <a href='https://www.khoury.northeastern.edu/'>Northeastern University</a>.
+    </p>
+    <p>This project is for one of Northeastern University on-campus organizations, 
+      <a href='https://undergraduate.northeastern.edu/peer-tutoring/'>Peer Tutoring Program</a>.
+    </p>
+
+
+    <h1>Abstract</h1>
+
+    <h3>-- A brief writeup about our project.</h3>
+    <p>We are interested in the population distribution of Northeastern’s 
+      Peer Tutoring Program. We are eager to answer our partner’s questions on 
+      how to improve the peer tutoring service to all undergraduate students. For 
+      example, we are going to find out tutoring hours distribution of classes 
+      in different colleges. We are going to find out types of tutoring sessions 
+      in different colleges. We would like to use our 
+      visualization techniques to display the improvements that our Peer Tutoring 
+      Program could do to enhance all students’ academic performance.</p>
+
+
+    <h1>Visualization</h1>
+    <p> The challenge that the Treemap tries to solve is 
+      <b>to show how many hours of tutoring each college takes up per session/hour</b>, which is a new task we identified.
+      In the meanwhile, this treemap solved the tasks that we planned in P3, including 
+      <b>Creating interaction between user and visualization by showing the relevant information of specific data</b>, 
+      <b>Visualizing the instructor information among different classes</b>, 
+      and <b>Discovering the most popular classes as well</b>. 
+
+    <p>Our pie chart visualization <b>shows the distributions of different types of tutoring format services among all colleges 
+      in Northeastern University</b>, which help to <b>tutor distribution among colleges</b>. 
+    </p>
+
+
+
+    <p>Include the interactive visualization as part of this page. Static example follows.</p>
+    
+    <p> 
+      <small>
+        <b>Usage of Treemap </b>
+        To play with the first visualization, the user could click the rectangles to see more details in its inferior layer. For example, 
+      when clicking the "College Of Science", the users could have a look at the courses which were provided tutoring sessions in this 
+      college. Clicking the "PHYS1145", users could know there are three professors teaching this class, and the tutoring hours for each 
+      section are 72.5, 56, and 34 hours. To zoom out the detailed view, users could click the upper orange bar, which indicates tutoring 
+      hours in sum and in each college, each course. 
+      </small>
+    </p>
+
+    <p> 
+      <small>
+        <b>Usage of Bar chart & Pie chart </b>
+          To play with the second visualization, the user could place the cursor on either the bars or the piece of the pie chart. 
+          When having his/her mouse over the COS bar, the pie chart could show off the distribution of the percentage of each tutoring 
+          session type. When focusing on the One_on_One_In_Person type, the bars on the left side display the share of different colleges 
+          of this kind of tutoring session. 
+      </small>
+    </p>
+
+
+
+  </div>
+
+  <!-- Visualization goes here -->
+  <div class='vis-holder'>
+    <!-- Change viewbox to whatever you want, e.g., '0 0 1000 6000' This determines your aspect ratio and coordinate system -->
+    <!-- Delete all the sample SVG code below after the viewbox to before the closing tag. Populate this part of the SVG with D3. -->
+    <div class='treemap-holder' id='treemap'></div>
+  </div>
+
+  <div class='vis-holder2'>
+    <div class='dashboard-holder' id='dashboard'></div>
+  </div>
+
+  <!-- Further writeup -->
+  <div class='content-column'>
+
+    <h1>Visualization explanation</h1>
+
+    <p>The task we prioritize in the first visualization is discovering the most popular class based on its tutoring hours and 
+      identifying the instructor information at the same time. Since our application is a Treemap table, it has a complete hierarchy. 
+      Our team breaks down the dataset containing a large amount of data through this table and shows the most outstanding values 
+      (courses requiring a large number of tutoring resources) by the size of the area. The dataset also contains information on sections 
+      taught by professors, so we also want to be able to show which professor's students in a particular course need more tutoring. 
+      Because it also shows how well the students understand the professor's teaching style. If we can get answers to the above questions, 
+      we can help PTP organizations better deploy tutors and tutoring sessions to different courses. And in a sense, we can also identify 
+      the most popular teachers with the most engaging teaching style.
+    </p>
+
+    <p>The second visualization contains a bar chart(left) and a pie chart(right). The two charts are linked together.
+       When the user has a mouse over on the bars of the bar chart, the pie chart could show off the distribution of each type of
+       tutoring with a different color. When the user has mouse over on the pie chart, the bar chart on the left side could display 
+       the number of hours of this specific tutoring type in each college. We transferred the visualization from a bar chart(left) 
+       to a pie chart(right) since the pie chart can show the proportion of each tutoring format better than the stacked bar chart.
+       In this way, users can have a clear view of which tutoring format uses most in one particular college/center/program.
+       And it’s better for them to compare one tutoring format to another, and compare the sum of all tutoring sessions among 
+       different colleges/centers/programs. We also consider the visualization usage for photosensitive people, so we choose the less 
+       saturated colors to present the bar chart and pie chart with great aesthetic pleasure. 
+    </p>
+
+    <p>
+    Here is the <a href='https://docs.google.com/presentation/d/10gM3JyfIOfLjAxnQGBEqMflBUC42iLE2QhFFnuH9XcU/edit?usp=sharing'>link to the slides</a> <!--slides are editable now-->
+    instead. To provide as much as information to our audiences, we write our explanations in details. We are eager to present 
+    the whole visualization-building process to our users thoughly and accurately via the slides. 
+    </p>
+
+    <h1>Visualization Demo Video</h1>
+
+    <!-- <p>Embed an MP4 demo video using the HTML5 &lt;video&gt; tag. For example, this screen recording Prof. Cody Dunne made of Mike Bostock's flexible transitions in D3 slide:</p> -->
+
+    <video controls width='100%'>
+      <!-- <source src='http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4' type='video/mp4'> -->
+      <source src='files/Group10.mp4' type='video/mp4'>
+      <!-- <p>Your browser doesn't support HTML5 video. Here is
+        a <a href='http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4'>link to the video</a> instead.</p> -->
+    </video>
+    <p>Video edited by IMovie</p>
+
+    <h1>Acknowledgments</h1>
+
+    <p>
+      List here where any code, packages/libraries, text, images, designs, etc. that you leverage come from.
+    </p>
+
+    <ul>
+      <li><a href='https://d3js.org/'>
+        D3: Data-Driven Documents</a>
+      by Mike Bostock is used for manipulating the DOM to create visualizations.
+      </li>
+      <li><a href='https://codepo8.github.io/css-fork-on-github-ribbon/#'>
+          Pure CSS responsive 'Fork me on GitHub' ribbon</a>
+        by Chris Heilmann is used to create the banner that links back to the source code repository.
+      </li>
+      <li><a href= "http://bl.ocks.org/ganeshv/6a8e9ada3ab7f2d88022">
+        Zoomable Treemap
+      </a>
+        by Ganeshv is used to create the interactive mode of Treemap.
+      </li>
+      <li><a href= "http://bl.ocks.org/cflavs/695d3215ccbce135d3bd">
+        Interactive Bar Chart Pie Chart
+        </a>
+        by Cecília is used to create the interaction between bar chart and piechart.
+      </li>
+    </ul>
+  </div>
+
+  <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
+  <!-- <script src='lib/d3.v7.3.0/d3.js'></script> -->
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src='js/visualization.js'></script>
+  <script src='js/treemap.js'></script>
+  <script src='js/piechart.js'></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>

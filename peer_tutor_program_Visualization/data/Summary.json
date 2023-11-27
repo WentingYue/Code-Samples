@@ -1,0 +1,182 @@
+[
+ {
+   "College": "Bouve College of Health Sciences",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 8
+ },
+ {
+   "College": "College of Arts, Media, and Design",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 68
+ },
+ {
+   "College": "College of Engineering",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 0
+ },
+ {
+   "College": "College of Science",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 2834
+ },
+ {
+   "College": "College of Social Studies and Humanities",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 426
+ },
+ {
+   "College": "D'Amore-McKim School of Business",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 407
+ },
+ {
+   "College": "General Studies Program (ENGW 1110)",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 14
+ },
+ {
+   "College": "Khoury College of Computer Sciences ",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 325
+ },
+ {
+   "College": "NUin Online Tutoring Center",
+   "Type": "One-on-One In-Person Tutoring Sessions ",
+   "sessions": 0
+ },
+ {
+   "College": "Bouve College of Health Sciences",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Arts, Media, and Design",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Engineering",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Science",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 558
+ },
+ {
+   "College": "College of Social Studies and Humanities",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 22
+ },
+ {
+   "College": "D'Amore-McKim School of Business",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 18
+ },
+ {
+   "College": "General Studies Program (ENGW 1110)",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "Khoury College of Computer Sciences ",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 75
+ },
+ {
+   "College": "NUin Online Tutoring Center",
+   "Type": "Small Group In-Person Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "Bouve College of Health Sciences",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 3
+ },
+ {
+   "College": "College of Arts, Media, and Design",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 9
+ },
+ {
+   "College": "College of Engineering",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 3
+ },
+ {
+   "College": "College of Science",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 1468
+ },
+ {
+   "College": "College of Social Studies and Humanities",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 220
+ },
+ {
+   "College": "D'Amore-McKim School of Business",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 228
+ },
+ {
+   "College": "General Studies Program (ENGW 1110)",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 21
+ },
+ {
+   "College": "Khoury College of Computer Sciences ",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 72
+ },
+ {
+   "College": "NUin Online Tutoring Center",
+   "Type": "One-on-One Online Tutoring Sessions",
+   "sessions": 479
+ },
+ {
+   "College": "Bouve College of Health Sciences",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Arts, Media, and Design",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Engineering",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "College of Science",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 122
+ },
+ {
+   "College": "College of Social Studies and Humanities",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "D'Amore-McKim School of Business",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 2
+ },
+ {
+   "College": "General Studies Program (ENGW 1110)",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 0
+ },
+ {
+   "College": "Khoury College of Computer Sciences ",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 4
+ },
+ {
+   "College": "NUin Online Tutoring Center",
+   "Type": "Small Group Online Tutoring Sessions",
+   "sessions": 8
+ }
+]
